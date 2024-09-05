@@ -1,0 +1,192 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "GCM32ER71H475KA55L"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C?"
+			(at -4.826 0.508 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at -4.826 -0.762 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP1210"
+			(at 8.89 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.mouser.com/datasheet/2/281/1/GCM32ER71H475KA55_01A-3146523.pdf"
+			(at 8.89 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 4.7uF, 5%"
+			(at 8.89 -4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 8.89 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM32ER71H475KA55L"
+			(at 8.89 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 1210"
+			(at 8.89 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(symbol "GCM32ER71H475KA55L_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GCM32ER71H475KA55L_1_0"
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GCM32ER71H475KA55L_1_1"
+			(polyline
+				(pts
+					(xy -2.54 -0.762) (xy 2.54 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+)

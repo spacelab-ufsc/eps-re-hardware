@@ -8,15 +8,15 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - "hardware/*.kicad_sch"
-    - "hardware/*.kicad_pcb"
-    - "hardware/*.kicad_pro"
+    - "sources/*.kicad_sch"
+    - "sources/*.kicad_pcb"
+    - "sources/*.kicad_pro"
     - "**/*kibot.yml"
   pull_request:
     paths:
-    - "hardware/*.kicad_sch"
-    - "hardware/*.kicad_pcb"
-    - "hardware/*.kicad_pro"
+    - "sources/*.kicad_sch"
+    - "sources/*.kicad_pcb"
+    - "sources/*.kicad_pro"
     - "**/*kibot.yml"
 
 env:
@@ -27,7 +27,7 @@ env:
 
 defaults:
   run:
-    working-directory: ./hardware
+    working-directory: ./sources
 
 jobs:
 # checks
@@ -67,9 +67,9 @@ jobs:
           name: ${{github.event.repository.name}}_docs
           if-no-files-found: error
           path: |
-            hardware/docs/**
-            !hardware/**/*.ogv
-            !hardware/**/*.log
+            outputs/docs/**
+            !outputs/**/*.ogv
+            !outputs/**/*.log
 # fabrications
   gerbers:
     runs-on: ubuntu-latest
@@ -88,9 +88,9 @@ jobs:
           name: ${{github.event.repository.name}}_gerbers
           if-no-files-found: error
           path: |
-            hardware/gerbers/**
-            !hardware/**/*.ogv
-            !hardware/**/*.log
+            outputs/gerbers/**
+            !outputs/**/*.ogv
+            !outputs/**/*.log
 # cad
   cad:
     runs-on: ubuntu-latest
@@ -109,9 +109,9 @@ jobs:
           name: ${{github.event.repository.name}}_cad
           if-no-files-found: error
           path: |
-            hardware/cad/**
-            !hardware/**/*.ogv
-            !hardware/**/*.log
+            outputs/cad/**
+            !outputs/**/*.ogv
+            !outputs/**/*.log
 # images
 #  render:
 #    runs-on: ubuntu-latest
@@ -130,6 +130,6 @@ jobs:
 #          name: ${{github.event.repository.name}}_img
 #          if-no-files-found: error
 #          path: |
-#            hardware/img/**
-#            !hardware/**/*.ogv
-#            !hardware/**/*.log
+#            outputs/img/**
+#            !outputs/**/*.ogv
+#            !outputs/**/*.log

@@ -1,0 +1,192 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "C1210C225K5RACTU"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C?"
+			(at -4.826 0.508 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at -4.826 -0.762 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP1210"
+			(at 8.89 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 8.89 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, 2.2uF, 5%"
+			(at 8.89 -4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 8.89 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1210C225K5RACTU"
+			(at 8.89 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD 1210"
+			(at 8.89 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(symbol "C1210C225K5RACTU_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C1210C225K5RACTU_1_0"
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C1210C225K5RACTU_1_1"
+			(polyline
+				(pts
+					(xy -2.54 -0.762) (xy 2.54 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+)
