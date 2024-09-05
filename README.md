@@ -39,12 +39,14 @@
 ## Overview
 The PCB of **RE²PS** [[1]](#1) was designed to be more reliable than previous EPS models developed by SpaceLab. To achieve this, ECSS standards for PCB development in space environments were tailored for the project [[2]](#2). Some flexibility was applied in selecting new connectors for interfacing with other modules, but whenever possible, previously used connectors, such as Pico-Locks and PicoBlades, were chosen.
 
+<!-- 
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_2D_top.svg"><img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_2D_bottom.svg">
+    <img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_2D_top.svg" width="400"><img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_2D_bottom.svg" width="400">
 </p>
+-->
 
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_3D_top.png"><img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_3D_bottom.png">
+    <img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_3D_top.png" width="400"><img src="https://github.com/spacelab-ufsc/eps-re-hardware/blob/main/outputs/eps-re_3D_bottom.png" width="400">
 </p>
 
 <p align="center">

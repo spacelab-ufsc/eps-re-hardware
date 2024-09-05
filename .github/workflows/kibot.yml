@@ -67,9 +67,9 @@ jobs:
           name: ${{github.event.repository.name}}_docs
           if-no-files-found: error
           path: |
-            outputs/docs/**
-            !outputs/**/*.ogv
-            !outputs/**/*.log
+            sources/docs/**
+            !sources/**/*.ogv
+            !sources/**/*.log
 # fabrications
   gerbers:
     runs-on: ubuntu-latest
@@ -88,9 +88,9 @@ jobs:
           name: ${{github.event.repository.name}}_gerbers
           if-no-files-found: error
           path: |
-            outputs/gerbers/**
-            !outputs/**/*.ogv
-            !outputs/**/*.log
+            sources/gerbers/**
+            !sources/**/*.ogv
+            !sources/**/*.log
 # cad
   cad:
     runs-on: ubuntu-latest
@@ -109,9 +109,9 @@ jobs:
           name: ${{github.event.repository.name}}_cad
           if-no-files-found: error
           path: |
-            outputs/cad/**
-            !outputs/**/*.ogv
-            !outputs/**/*.log
+            sources/cad/**
+            !sources/**/*.ogv
+            !sources/**/*.log
 # images
 #  render:
 #    runs-on: ubuntu-latest
@@ -130,6 +130,6 @@ jobs:
 #          name: ${{github.event.repository.name}}_img
 #          if-no-files-found: error
 #          path: |
-#            outputs/img/**
-#            !outputs/**/*.ogv
-#            !outputs/**/*.log
+#            sources/img/**
+#            !sources/**/*.ogv
+#            !sources/**/*.log
